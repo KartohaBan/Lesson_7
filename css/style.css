@@ -1,0 +1,191 @@
+/*==============================================================*/
+/*подкючения шрифтов  Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
+/*=========================================================*/
+/*подкючения шрифтов  Lato*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/*==============================================================*/
+/*подкючения шрифтов  Playfair Display*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500;1,900&display=swap');
+
+/*==============================================================*/
+/*подкючения шрифтов  Oswald*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,500;1,900&display=swap');
+/*==============================================================*/
+/*подкючения шрифтов larsseit*/
+
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/larsseit/Larsseit-Regular.woff2") format("woff2"),
+    url("../fonts/larsseit/Larsseit-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/larsseit/Larsseit-Medium.woff2") format("woff2"),
+    url("../fonts/larsseit/Larsseit-Medium.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/larsseit/Larsseit-Bold.woff2") format("woff2"),
+    url("../fonts/larsseit/Larsseit-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*==============================================================*/
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  width: 1920px;
+  margin: 0 auto;
+  align-items: center;
+  color: #1E212C;
+}
+
+[class*="__conteiner"] {
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+.main {
+  background-color: bisque;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 60px;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: aquamarine;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 24px;
+  background-color: aquamarine;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #424551;
+  margin-bottom: 26px;
+}
+
+.quote {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0px 0px 48px 48px;
+  background-color: aquamarine;
+}
+
+.list {
+  font-size: 16px;
+  line-height: 26px;
+  color: #424551;
+  margin-bottom: 24px;
+}
+
+ul {
+  font-size: 16px;
+  line-height: 26px;
+  color: #424551;
+  margin-left: 35px;
+  margin-bottom: 4px;
+}
+
+.quote-list {
+  margin-bottom: 30px;
+
+}
+
+.list-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #424551;
+  margin-bottom: 60px;
+}
+
+/* ============================================================ */
+
+.footer-block__conteiner {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  width: 810px;
+  margin: 0 auto;
+  color: #1E212C;
+  background-color: aquamarine;
+}
+
+.footer {
+  background-color: antiquewhite;
+}
+
+.footer-title {
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 5px 5px 5px rgb(98, 255, 81);
+  margin-bottom: 50px;
+
+}
+
+
+.footer-subtitl__conteiner {
+  font-size: 24px;
+  font-weight: 400;
+  text-shadow: 5px 5px 5px rgb(162, 255, 81);
+  margin-bottom: 50px;
+  background-color: aquamarine;
+}
+
+.footer-text__conteiner {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-shadow: 5px 5px 5px rgb(162, 255, 81);
+  margin-bottom: 10px;
+  background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================ */
+
+
+/* ============================================================ */
+/* ============================================================ */
+/* ============================================================ */
